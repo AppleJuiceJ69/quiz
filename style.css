@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+li{
+    list-style-type: none;
+    padding: .25rem;
+    font-weight: bold;
+}
+
+#main-container{
+
+    width: 25rem;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    background-color: white;
+    margin: auto;
+}
+li, h3{
+  padding: .5rem 2rem;
+   
+}
+
+button{
+    width: 100%;
+    color: red;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 2rem;
+    cursor: pointer;
+   
+}
+
+#button-container{
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+#popup-container{
+  
+    display: flex;
+    justify-content: center;
+    background: gray;
+    width: 60%;
+    height: 3rem;
+    line-height: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.my-scores{
+    padding: 0rem 1rem;
+ 
+
+}
